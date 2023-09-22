@@ -1,7 +1,9 @@
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
+import { useState } from 'react'
 
 const About = () => {
+  const [letterClass, setLetterClass] = useState('text-animate')
 
   return (
     <div className='container about-page'>
