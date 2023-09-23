@@ -1,6 +1,8 @@
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState } from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAngular, faCss3, faGitAlt, faHtml5, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons'
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -8,7 +10,7 @@ const About = () => {
   useEffect(() => {
     setTimeout(() => {
       setLetterClass('text-animate-hover')
-    }, 4000)
+    }, 3000)
   }, [])
 
   return (
@@ -40,6 +42,29 @@ const About = () => {
         <p>
           As I navigate this career transition, I am fueled by a thirst for knowledge and a desire to create meaningful, impactful software solutions. Come along on this exciting journey with me as I use my past experiences to shape the future of technology from the perspective of a Full Stack Developer.
         </p>
+      </div>
+
+      <div className='stage-cube-cont'>
+        <div className='cubespinner'>
+          <div className='face1'>
+            <FontAwesomeIcon icon={faAngular} color="#DD0031" />
+          </div>
+          <div className='face2'>
+            <FontAwesomeIcon icon={faHtml5} color="#DD0031" />
+          </div>
+          <div className='face3'>
+            <FontAwesomeIcon icon={faCss3} color="#DD0031" />
+          </div>
+          <div className='face4'>
+            <FontAwesomeIcon icon={faReact} color="#DD0031" />
+          </div>
+          <div className='face5'>
+            <FontAwesomeIcon icon={faJsSquare} color="#DD0031" />
+          </div>
+          <div className='face6'>
+            <FontAwesomeIcon icon={faGitAlt} color="#DD0031" />
+          </div>
+        </div>
       </div>
     </div>
   )
