@@ -84,14 +84,14 @@ const Contact = () => {
             </form>
           </div>
         </div>
-        <div className='info-map'>
+        {/* <div className='info-map'>
           Shawn Bunch,
           <br />
           Dallas, TX
           <br />
           USA <br />
           <span>shawnbunch@gmail.com</span>
-        </div>
+        </div> */}
         <div className='map-wrap'>
           <MapContainer center={[32.778976, -96.798048]} zoom={13}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}{x}{y}.png" />
