@@ -5,6 +5,36 @@
       "title": "Plutus",
       "description": "Personal Finance Application",
       "url": "https://github.com/shbunch/Plutus"
+    },
+    {
+      "cover": "/portfolio/2/awristocrat.avif",
+      "title": "Awristocrat",
+      "description": "Luxury Watch E-Commerce Site",
+      "url": "https://github.com/shbunch/Awristocrats"
+    },
+    {
+      "cover": "/portfolio/3/gamebox.avif",
+      "title": "Gamebox",
+      "description": "Game Search Catalog",
+      "url": "https://github.com/shbunch/GameBox"
+    },
+    {
+      "cover": "/portfolio/4/password.avif",
+      "title": "Password Generator",
+      "description": "Password Generator",
+      "url": "https://github.com/shbunch/password-generator"
+    },
+    {
+      "cover": "/portfolio/5/notebook.avif",
+      "title": "Note Taker",
+      "description": "Note Taking Application",
+      "url": "https://github.com/shbunch/note-taker"
+    },
+    {
+      "cover": "/portfolio/6/employees.avif",
+      "title": "Employee Tracker",
+      "description": "Backend Employee Database System",
+      "url": "https://github.com/shbunch/employee-tracker"
     }
   ]
 }
