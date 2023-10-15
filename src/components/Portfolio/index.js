@@ -37,6 +37,10 @@ const Portfolio = () => {
                     className="btn"
                     onClick={() => window.open(port.url)}
                   >View</button>
+                  {/* <button
+                    className="btn2"
+                    onClick={() => window.open(port.url)}
+                  >View</button> */}
                 </div>
               </div>
             )
