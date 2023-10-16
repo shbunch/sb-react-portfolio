@@ -34,8 +34,8 @@ const Portfolio = () => {
                   <p className="title">{port.title}</p>
                   <h4 className="description">{port.description}</h4>
                   <button
-                    className="btn"
-                    onClick={() => window.open(port.url)}
+                    className="repobtn"
+                    onClick={() => window.open(port.giturl)}
                   >View</button>
                   {/* <button
                     className="btn2"

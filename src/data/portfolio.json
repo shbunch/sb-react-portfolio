@@ -4,37 +4,40 @@
       "cover": "/portfolio/1/plutus.jpg",
       "title": "Plutus",
       "description": "Personal Finance Application",
-      "url": "https://github.com/shbunch/Plutus"
+      "giturl": "https://github.com/shbunch/Plutus",
+      "demourl": "https://cryptic-coast-09384-0756af69f6b6.herokuapp.com/"
     },
     {
       "cover": "/portfolio/2/awristocrat.avif",
       "title": "Awristocrat",
       "description": "Luxury Watch E-Commerce Site",
-      "url": "https://github.com/shbunch/Awristocrats"
+      "giturl": "https://github.com/shbunch/Awristocrats",
+      "demourl": "https://arcane-caverns-68488-3502f0db0406.herokuapp.com/"
     },
     {
       "cover": "/portfolio/3/gamebox.avif",
       "title": "Gamebox",
       "description": "Game Search Catalog",
-      "url": "https://github.com/shbunch/GameBox"
+      "giturl": "https://github.com/shbunch/GameBox",
+      "demourl": "https://shbunch.github.io/GameBox/"
     },
     {
       "cover": "/portfolio/4/password.avif",
       "title": "Password Generator",
       "description": "Password Generator",
-      "url": "https://github.com/shbunch/password-generator"
+      "giturl": "https://github.com/shbunch/password-generator"
     },
     {
       "cover": "/portfolio/5/notebook.avif",
       "title": "Note Taker",
       "description": "Note Taking Application",
-      "url": "https://github.com/shbunch/note-taker"
+      "giturl": "https://github.com/shbunch/note-taker"
     },
     {
       "cover": "/portfolio/6/employees.avif",
       "title": "Employee Tracker",
       "description": "Backend Employee Database System",
-      "url": "https://github.com/shbunch/employee-tracker"
+      "giturl": "https://github.com/shbunch/employee-tracker"
     }
   ]
 }
