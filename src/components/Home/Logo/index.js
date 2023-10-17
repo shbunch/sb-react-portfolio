@@ -1,8 +1,12 @@
 import './index.scss';
 import LogoS from '../../../assets/images/logo-s.png'
 import { useEffect, useRef } from 'react'
-import DrawSVGPlugin from 'gsap-trial/DrawSVGPlugin';
-import gsap from 'gsap-trial'
+import { gsap } from "gsap/dist/gsap";
+import { CustomEase } from "gsap/dist/CustomEase";
+/* The following plugin is a Club GSAP perk */
+import { DrawSVGPlugin } from "gsap/dist/DrawSVGPlugin";
+
+gsap.registerPlugin(DrawSVGPlugin,CustomEase);
 
 const Logo = () => {
   const bgRef = useRef()
