@@ -3,6 +3,9 @@ import './index.scss';
 import Loader from "react-loaders";
 import AnimatedLetters from '../AnimatedLetters'
 import portfolioData from '../../data/portfolio.json'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+
 
 const Portfolio = () => {
   const [letterClass, setletterClass] = useState('text-animate')
@@ -36,7 +39,12 @@ const Portfolio = () => {
                   <button
                     className="gitbtn"
                     onClick={() => window.open(port.giturl)}
-                  >Github</button>
+                  ><FontAwesomeIcon
+                  icon={faGithub}
+                  color="ffd700"
+                  size="2x"
+                  className="giticon"
+                  /></button>
                   <button
                     className="demobtn"
                     onClick={() => window.open(port.demourl)}

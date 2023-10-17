@@ -25,19 +25,22 @@
       "cover": "/portfolio/4/password.avif",
       "title": "Password Generator",
       "description": "Password Generator",
-      "giturl": "https://github.com/shbunch/password-generator"
+      "giturl": "https://github.com/shbunch/password-generator",
+      "demourl": "https://shbunch.github.io/password-generator/"
     },
     {
       "cover": "/portfolio/5/notebook.avif",
       "title": "Note Taker",
       "description": "Note Taking Application",
-      "giturl": "https://github.com/shbunch/note-taker"
+      "giturl": "https://github.com/shbunch/note-taker",
+      "demourl": "https://note-taker-sb-49a4f5ea30c6.herokuapp.com/"
     },
     {
       "cover": "/portfolio/6/employees.avif",
       "title": "Employee Tracker",
       "description": "Backend Employee Database System",
-      "giturl": "https://github.com/shbunch/employee-tracker"
+      "giturl": "https://github.com/shbunch/employee-tracker",
+      "demourl": "https://drive.google.com/file/d/19HcxwYZUR5o1tSLiyD3yBbGOlBlH2Hu2/view"
     }
   ]
 }
