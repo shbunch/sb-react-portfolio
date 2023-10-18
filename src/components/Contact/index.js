@@ -84,19 +84,21 @@ const Contact = () => {
             </form>
           </div>
         </div>
-        {/* <div className='info-map'>
-          Shawn Bunch,
-          <br />
-          Dallas, TX
-          <br />
-          USA <br />
-          <span>shawnbunch@gmail.com</span>
-        </div> */}
         <div className='map-wrap'>
-          <MapContainer center={[32.778976, -96.798048]} zoom={13}>
-            <TileLayer url="https://{s}.tile.openstreetmap.org/{z}{x}{y}.png" />
+          <MapContainer
+            center={[32.778976, -96.798048]}
+            zoom={13}
+            scrollWheelZoom={false}>
+            <TileLayer
+              attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            />
             <Marker position={[32.778976, -96.798048]}>
-              <Popup>Shawn has been a resident of Dallas since 2016!</Popup>
+              <Popup>
+                Although Shawn originally hails from New Jersey,
+                <br />
+                he has been living in Dallas, Texas since 2016!
+              </Popup>
             </Marker>
           </MapContainer>
         </div>
