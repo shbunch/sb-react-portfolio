@@ -14,7 +14,7 @@ const Sidebar = () => {
     <div className='nav-bar'>
       <Link className='logo' to='/'>
         <img src={LogoS} alt="logo" />
-        <img src={LogoSubtitle} alt="shawn" />
+        <img className="sub-logo" src={LogoSubtitle} alt="shawn" />
       </Link>
       <nav className={showNav ? 'mobile-show' : ''}>
         <NavLink
