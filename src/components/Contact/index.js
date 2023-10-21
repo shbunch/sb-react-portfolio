@@ -48,7 +48,7 @@ const Contact = () => {
             />
           </h1>
           <p>
-            If you have other requests or questions, please contact me using the form below
+            If you have other requests or questions, please contact me at shawnbunch@gmail.com or use the form below
           </p>
           <div className='contact-form'>
             <form ref={refForm} onSubmit={sendEmail}>
